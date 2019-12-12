@@ -1,0 +1,10 @@
+// ==UserScript==
+// @name         explore learning anti-timer
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  yeesss i have premium
+// @author       jondles
+// @match        https://www.explorelearning.com/*
+// @grant        none
+// ==/UserScript==
+timerCounterElement.innerText="N/A",timerCounterElement.style.color="#959595",timerCounterElement.style.visibility="visible",timerCounterElement=void 0,document.cookie="_gcl_au=;expires=Thu, 01 Jan 1970 00:00:01 GMT;zebratr2=;expires=Thu, 01 Jan 1970 00:00:01 GMT",setCookie("zebratr2",99999,1);
